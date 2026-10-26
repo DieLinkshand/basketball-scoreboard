@@ -1,0 +1,70 @@
+@font-face {
+  font-family: digital7;
+  src: url(media/digital-7.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 20px;
+}
+
+.score {
+    font-family: digital7;
+    font-weight: bolder;
+    color: #F94F6D;
+    font-size: 100px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#home {
+    margin: 0px;
+    text-align: center;
+}
+
+#home-score {
+    margin: 20px;
+}
+
+#guest-score {
+    margin: 20px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.plus-buttons {
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #9AABD8;
+    font-family: digital7;
+    margin-top: 0;
+}
+
+#reset-score {
+    display: block;
+    margin: auto;
+    background-color: #1B244A;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: lightcoral;
+    font-family: digital7;
+}
